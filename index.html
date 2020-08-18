@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="resources/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet">
+  <link href="./styles/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive-design.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="resources/favicons/apple-icon-57x57.png">
+  <link rel="icon" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+  <link rel="icon" sizes="96x96" href="resources/favicons/favicon-96x96.png">
+  <link rel="icon" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="resources/favicons/manifest.json">
+  <title>DEVCLAN</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div class="header" id="header">
+    <div class="overlay"></div>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div id="dismiss"> <i class="fa fa-arrow-right"></i> </div>
+        <div class="sidebar-header">
+          <h3>MENU</h3>
+          <p>Welcome to DEVCLAN!</p>
+        </div>
+        <ul class="list-unstyled components">
+          <ul class="navbar-nav nav-flex-icons p-2">
+            <li class="nav-item mx-1"> <a href="https://www.facebook.com/karan.siddannavar" class="nav-link social-logo"
+                target="_blank"><i class="fa fa-facebook-square"></i></a> </li>
+            <li class="nav-item mx-1"> <a href="" class="nav-link social-logo" target="_blank"><i
+                  class="fa fa-twitter"></i></a> </li>
+            <li class="nav-item mx-1"> <a href="https://www.instagram.com/karan_sidds.fcb/" class="nav-link social-logo"
+                target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> </li>
+            <li class="nav-item mx-1"> <a href="" class="nav-link social-logo" target="_blank"><i
+                  class="fa fa-linkedin"></i></a> </li>
+          </ul>
+          <li class="active"> <a href="#header">HOME</a> </li>
+          <li> <a href="#about">BLOG</a> </li>
+          <li> <a href="#">PORTFOLIO</a> </li>
+          <li> <a href="#services">SERVICES</a> </li>
+          <li> <a href="#contact">CONTACT</a> </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid"> <a href="index.html" class="navbar-brand ml-3"><img
+                src="./resources/images/team.png" alt="" class="navbar-brand-logo mr-1 img-fluid"
+                style="height: 0%; width: 35px; position: relative; top: -7px;"><span class="navbar-text"
+                style="font-weight: 400;">DEVCLAN</span></a>
+            <ul class="navbar-nav px-5 float-right hidden">
+              <li class="nav-item"> <a href="#home" class="nav-link top-link">HOME</a> </li>
+              <li class="nav-item"> <a href="#about" class="nav-link top-link">BLOG</a> </li>
+              <li class="nav-item"> <a href="#" class="nav-link top-link">PORTFOLIO</a> </li>
+              <li class="nav-item"> <a href="#services" class="nav-link top-link">SERVICES</a> </li>
+              <li class="nav-item"> <a href="#contact" class="nav-link top-link">CONTACT</a> </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons float-right mx-5 social-logo hidden">
+              <li class="nav-item mx-1"> <a href="https://www.facebook.com/karan.siddannavar"
+                  class="nav-link facebook social-logo" target="_blank"><i class="fa fa-facebook-square"></i></a> </li>
+              <li class="nav-item mx-1"> <a class="nav-link twitter social-logo"><i class="fa fa-twitter"></i></a> </li>
+              <li class="nav-item mx-1"> <a href="https://www.instagram.com/karan_sidds.fcb/"
+                  class="nav-link instagram social-logo" target="_blank"><i class="fa fa-instagram"></i></a> </li>
+              <li class="nav-item mx-1"> <a class="nav-link linkedin social-logo"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+            <button type="button" id="sidebarCollapse" class="btn bg-transparent"> <i class="fa fa-align-right"
+                style="font-size: 1.4rem;"></i> <span style="font-size: 1.3rem;">MENU</span> </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div id="intro" class="view mt-4">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-12">
+              <!-- Heading -->
+              <h1 class="display-4 white-text pt-5 mb-2 header-main-title--primary" data-aos="fade-right"
+                data-aos-duration="1000" data-aos-easing="ease-in">CLAN</h1>
+
+              <!-- Description -->
+              <h3 class="header-main-slogan--primary white-text my-2" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-easing="ease-in"><span style="font-size: 2.4rem; font-weight: 600;">C</span>ODE <span
+                  style="font-size: 2.4rem; font-weight: 600;">L</span>IKE <span
+                  style="font-size: 2.4rem; font-weight: 600;">A</span> <span
+                  style="font-size: 2.4rem; font-weight: 600;">N</span>ERD</h3>
+              <a href="#about-education-section" class="btn btn--white my-3" data-aos="fade-up" data-aos-duration="2000"
+                data-aos-easing="ease-in">KNOW ABOUT
+                US</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--ABOUT HEADER-->
+  <div id="about">
+    <section id="about-education-section">
+      <div class="container">
+        <div class="col text-center py-5">
+          <h2 class="about-education"> EDUCATION </h2>
+          <div class="col-md-9 m-auto">
+            <p>We strongly believe in educating our readers with our articles and e-books. Educating
+              ourselves is an important part to excel at the things we love and care about. As the
+              quote
+              says: </p>
+          </div>
+          <blockquote><span style="font-size: 20px;">&#8220;</span> An investment in knowledge pays
+            the
+            best interest.</blockquote>
+          <cite class="author">-Benjamin Franklin</cite>
+        </div>
+      </div>
+    </section>
+
+    <!--BLOG SECTION-->
+    <header id="blog-header">
+      <div class="container">
+        <div class="m-auto text-center py-4">
+          <h2 class="blog">BLOG</h2>
+        </div>
+      </div>
+    </header>
+    <section id="blog" class="pb-5">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-body"> <a href="" class="blog-link">
+                <h3 class="card-title">BLOG POST ONE</h3>
+              </a> <small class="text-muted">Written by Karan VS</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Consequatur perspiciatis quas exercitationem natus? Magnam molestiae
+                unde
+                praesentium, quidem soluta incidunt enim dolore veritatis at quis
+                molestias
+                corporis
+                quod inventore porro!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body"> <a href="" class="blog-link">
+                <h3 class="card-title">BLOG POST TWO</h3>
+              </a> <small class="text-muted">Written by Karan VS</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Consequatur perspiciatis quas exercitationem natus? Magnam molestiae
+                unde
+                praesentium, quidem soluta incidunt enim dolore veritatis at quis
+                molestias
+                corporis
+                quod inventore porro!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body"> <a href="" class="blog-link">
+                <h3 class="card-title">BLOG POST THREE</h3>
+              </a> <small class="text-muted">Written by Karan VS</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Consequatur perspiciatis quas exercitationem natus? Magnam molestiae
+                unde
+                praesentium, quidem soluta incidunt enim dolore veritatis at quis
+                molestias
+                corporis
+                quod inventore porro!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 float-right my-2"> <a href="#" class="visit-blog" data-aos="zoom-in-right"
+          data-aos-duration="1000" data-aos-easing="ease-in">VISIT BLOG <span>&rarr;</span> </a> </div>
+    </section>
+  </div>
+
+  <!--Stop using inline css. Put all the css in the style.css-->
+  <!--SERVICES-->
+  <!--SERVICES HEADER-->
+  <div id="services">
+    <header class="services-header">
+      <div class="container">
+        <div class="col-md-6 mx-auto text-center py-4">
+          <h2 class="services-title">SERVICES</h2>
+        </div>
+      </div>
+    </header>
+    <!--END-->
+
+    <!--SERVICES MAIN-->
+    <section class="services-about">
+      <div class="container col-md-10">
+        <div class="card-deck">
+          <div class="card card-effects card-1" data-aos="zoom-out-right" data-aos-duration="1000"
+            data-aos-easing="ease-in">
+            <div class="card-body">
+              <div style="text-align: center;"> <img src="./resources/images/data.png" alt="Web Development Logo"
+                  class="img-fluid services--image-effects" style="height: 50px; width: 50px;"> </div>
+              <h3 class="card-title text-center" style="color: rgba(128, 128, 128, 0.966) !important;">WEB
+                DEVELOPMENT </h3>
+              <hr style="border: .01px solid #333 !important;">
+              <p class="card-text px-2" style="color: whitesmoke !important;">Lorem ipsum dolor sit
+                amet
+                consectetur adipisicing elit. Odit
+                perspiciatis
+                nobis quod voluptate aperiam dolore. Iusto cum voluptatum consequatur aperiam
+                consectetur
+                iure
+                natus sapiente accusantium? Maiores totam ab culpa sed!</p>
+            </div>
+          </div>
+          <div class="card card-effects" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-easing="ease-in">
+            <div class="card-body">
+              <div style="text-align: center;"> <img src="./resources/images/megaphone.png" alt="Web Development Logo"
+                  class="img-fluid services--image-effects" style="height: 50px; width: 50px;"> </div>
+              <h3 class="card-title text-center" style="color: rgba(128, 128, 128, 0.966) !important;"> MARKETING</h3>
+              <hr style="border: .01px solid #333 !important;">
+              <p class="card-text px-2" style="color: whitesmoke !important;">Lorem ipsum dolor sit
+                amet
+                consectetur adipisicing elit. Odit
+                perspiciatis
+                nobis quod voluptate aperiam dolore. Iusto cum voluptatum consequatur aperiam
+                consectetur
+                iure
+                natus sapiente accusantium? Maiores totam ab culpa sed!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END-->
+
+    <!--SERVICES MORE-->
+    <header class="services-more--header">
+      <div class="container">
+        <div class="col-md-12 text-center pt-5 pb-3">
+          <h4 class="services-more--header---title"> WHY TRUST IN OUR SERVICES </h4>
+          <p class="text-black">Because we believe in:</p>
+        </div>
+      </div>
+    </header>
+    <section class="services-more--section pb-5">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card bg-transparent" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in">
+            <h3 class="card-title text-center" style="font-weight: 600 !important; color: whitesmoke !important;">
+              RESEARCH</h3>
+            <div style="text-align: center;"> <img src="./resources/images/creative.png" alt="Web Development Logo"
+                class="img-fluid services--image-effects my-2" style="height: 90px; width: 90px;"> </div>
+            <p class="text-whitesmoke text-center">Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit.
+              Modi illum
+              dolor, asperiores
+              error
+              beatae vel excepturi aliquid ipsam officia dicta cupiditate, rerum cumque corrupti atque
+              distinctio, omnis ex repudiandae enim?</p>
+          </div>
+          <div class="card bg-transparent" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in">
+            <h3 class="card-title text-center" style="font-weight: 600 !important; color: whitesmoke !important;">BUILD
+            </h3>
+            <div style="text-align: center;"> <img src="./resources/images/tablet.png" alt="Web Development Logo"
+                class="img-fluid services--image-effects my-2" style="height: 90px; width: 90px;"> </div>
+            <p class="text-whitesmoke text-center">Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit.
+              Modi
+              illum dolor, asperiores
+              error
+              beatae vel excepturi aliquid ipsam officia dicta cupiditate, rerum cumque corrupti atque
+              distinctio, omnis ex repudiandae enim?</p>
+          </div>
+          <div class="card bg-transparent" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease-in">
+            <h3 class="card-title text-center" style="font-weight: 600 !important;  color: whitesmoke !important;">
+              OPTIMIZE</h3>
+            <div style="text-align: center;"><img src="./resources/images/line-chart.png" alt="Web Development Logo"
+                class="img-fluid services--image-effects my-2" style="height: 90px; width: 90px;"> </div>
+            <p class="text-whitesmoke text-center">Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit.
+              Modi
+              illum dolor, asperiores
+              error
+              beatae vel excepturi aliquid ipsam officia dicta cupiditate, rerum cumque corrupti atque
+              distinctio, omnis ex repudiandae enim?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--END-->
+
+  </div>
+  <!--SERVICES END-->
+
+  <!--CONTACT-->
+  <div id="contact">
+    <div class="contact-section">
+      <div class="container">
+        <div class="row mx-auto text-center">
+          <div class="card card-effects-1" data-aos="zoom-out" data-aos-duration="1000">
+            <div class="card-body contact-section--card">
+              <div class="contact-section--header"> <span class="contact-section--header-1">CONTACT US</span> <span
+                  class="contact-section--header-2">Feel free to drop us a line!</span> </div>
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="Name" class="form-label-1">Name:</label>
+                  <input type="text" class="form-input-1 " id="Name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                  <label for="Email" class="form-label-2">Email:</label>
+                  <input type="text" class="form-input-2" id="Email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                  <label for="Phone" class="form-label-3">Phone No:</label>
+                  <input type="text" class="form-input-3" id="Phone" placeholder="Enter your contact number">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message:</label>
+                  <textarea class="" id="Message" rows="4" placeholder="Please type your message"></textarea>
+                </div>
+                <a href="#" class="form-btn my-3"> SEND MESSAGE </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--CONTACT END-->
+
+  <!--FOOTER-->
+  <!-- Footer -->
+
+  <footer class="page-footer font-small unique-color-dark">
+    <div id="footer" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.616), #ffffff28);">
+      <div class="container">
+        <!-- Grid row-->
+
+        <div class="row py-2 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 col-sm-7 text-center text-sm-left mb-md-0">
+            <h6 class="mb-3 text-white">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 col-sm-5 text-center text-sm-right mb-md-0 mb-2">
+
+            <!-- Facebook -->
+            <a class="fb-ic text-whitesmoke" style="font-size: 1.2rem;"> <i
+                class="fa fa-facebook-square facebook white-text mr-4"> </i> </a>
+            <!-- Twitter -->
+            <a class="tw-ic text-whitesmoke" style="font-size: 1.2rem;"> <i
+                class="fa fa-twitter twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic text-whitesmoke" style="font-size: 1.2rem;"> <i
+                class="fa fa-google-plus google-plus white-text mr-4"> </i> </a>
+            <!--Linkedin -->
+            <a class="li-ic text-whitesmoke" style="font-size: 1.2rem;"> <i
+                class="fa fa-linkedin linkedin white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic text-whitesmoke" style="font-size: 1.2rem;"> <i
+                class="fa fa-instagram instagram white-text"> </i>
+            </a> </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5 footer-section">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold text-whitesmoke" style="font-size: 1.8rem !important;"> DEVCLAN
+          </h6>
+          <p class="text-whitesmoke">Here you can use rows and columns to organize your footer content.
+            Lorem
+            ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-4 mb-md-0 mb-4 mx-lg-4">
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold text-whitesmoke">Contact</h6>
+          <p class="text-whitesmoke"> <i class="fa fa-home mr-3"></i>Hanuman Nagar, Belgaum</p>
+          <p class="text-whitesmoke"> <i class="fa fa-envelope mr-3"></i> karansiddannavar09@gmail.com</p>
+          <p class="text-whitesmoke"> <i class="fa fa-phone mr-3"></i> + 91 7259511337</p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-2 mb-md-0">
+          <h6 class="text-whitesmoke mb-3 font-weight-bold"> SUBSCRIBE </h6>
+          <p class="text-whitesmoke"> Subscrible to our newsletter to recieve the latest updates on our e-books and
+            articles! </p>
+
+          <!--input 1-->
+          <input type="text" id="name-input" class="form-control mb-4" placeholder="Name">
+
+          <!--input 2-->
+          <input type="text" id="email-input" class="form-control mb-4" placeholder="Email">
+
+          <!--submit button-->
+          <button class="form-btn contact-btn mx-auto mx-md-0" type="submit">SUBSCRIBE</button>
+        </div>
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="text-whitesmoke footer-copyright text-center py-5">© 2019 Copyright:
+      D E V C L A N </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+  <!--END FOOTER-->
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+  </script>
+  <!-- Bootstrap JS -->
+
+  <!-- jQuery Custom Scroller CDN -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+
+  <script src="./scripts/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    $(document).on('click', '#sidebar ul li', function () {
+      $(this).addClass('active').siblings().removeClass('active')
+    })
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#dismiss, .overlay').on('click', function () {
+        $('#sidebar').removeClass('active');
+        $('.overlay').removeClass('active');
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').addClass('active');
+        $('.overlay').addClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+  <script>
+    $("#sidebar li a").on('click', function () {
+      $("#sidebar").removeClass('active');
+      $(".overlay").removeClass('active');
+    })
+  </script>
+</body>
+
+</html>

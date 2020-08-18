@@ -1,0 +1,247 @@
+@media only screen and (max-width: 1200px) {
+    .header-contact--list {
+        top: 69%;
+        left: 94.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /*------HEADER CONTACT-------*/
+    .social-logo {
+        font-size: 22px;
+    }
+
+    .facebook:hover,
+    .facebook:active {
+        font-size: 24px;
+    }
+
+    .instagram:hover,
+    .instagram:active {
+        font-size: 24px;
+    }
+
+    .twitter:hover,
+    .twitter:active {
+        font-size: 24px;
+    }
+
+    .linkedin:hover,
+    .linkedin:active {
+        font-size: 24px;
+    }
+
+    .header-contact--list {
+        top: 71%;
+        left: 93.5%;
+    }
+
+    /*--------END--------*/
+
+    /*---------HEADER TITLE--------*/
+    
+
+    /*----------END-----------*/
+
+    /*--------HEADER BUTTON--------*/
+    .btn:link,
+    .btn:visited {
+        font-size: .9rem;
+        padding: 14.5px 38px 14.5px 38px;
+    }
+
+    /*--------END-----------*/
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*--------HEADER CONTACT-------*/
+    .social-logo {
+        font-size: 20px;
+    }
+
+    .facebook:hover,
+    .facebook:active {
+        font-size: 23px;
+    }
+
+    .instagram:hover,
+    .instagram:active {
+        font-size: 23px;
+    }
+
+    .twitter:hover,
+    .twitter:active {
+        font-size: 23px;
+    }
+
+    .linkedin:hover,
+    .linkedin:active {
+        font-size: 23px;
+    }
+
+    .header-contact--list {
+        top: 73%;
+        left: 91.5%;
+    }
+
+    /*-------------END-----------*/
+
+    /*---------HEADER TITLE--------*/
+    .view {
+        margin-top: 100px !important;
+    }
+
+    /*----------END-----------*/
+
+    /*--------HEADER BUTTON--------*/
+    .btn:link,
+    .btn:visited {
+        padding: 13px 35px 13px 35px;
+        font-size: 1rem;
+    }
+
+    /*--------END-----------*/
+
+    /*--------HEADER BRAND-------*/
+    .navbar-brand {
+        font-size: 23px;
+    }
+
+    .navbar-brand-logo {
+        height: 55px;
+        width: 50px;
+    }
+
+    /*----------END-----------*/
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 95% !important;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        height: 94% !important;
+    }
+
+    .btn {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .social-logo {
+        font-size: 19.5px;
+    }
+
+    .facebook:hover,
+    .facebook:active {
+        font-size: 22px;
+    }
+
+    .instagram:hover,
+    .instagram:active {
+        font-size: 22px;
+    }
+
+    .twitter:hover,
+    .twitter:active {
+        font-size: 22px;
+    }
+
+    .linkedin:hover,
+    .linkedin:active {
+        font-size: 22px;
+    }
+
+    .header-contact--list {
+        top: 73%;
+        left: 89%;
+    }
+
+    /*---------HEADER TITLE--------*/
+
+    /*----------END-----------*/
+
+    /*--------HEADER BUTTON--------*/
+    .btn:link,
+    .btn:visited {
+        padding: 12px 33px 12px 33px;
+        font-size: .9rem;
+    }
+
+    /*--------END-----------*/
+
+    /*--------HEADER BRAND-------*/
+    .navbar-brand {
+        font-size: 21px;
+    }
+
+    .navbar-brand-logo {
+        height: 50px;
+        width: 45px;
+    }
+
+    /*----------END-----------*/
+}
+
+@media only screen and (max-width: 480px) {
+    .header-contact--list {
+        top: 74%;
+        left: 87%;
+    }
+
+    /*---------HEADER TITLE--------*/
+
+    .clan {
+        font-size: 0px;
+    }
+
+    /*----------END-----------*/
+
+    /*--------HEADER BUTTON--------*/
+    .btn:link,
+    .btn:visited {
+        padding: 11px 25.5px 11px 25.5px;
+        font-size: .9rem;
+    }
+
+    /*--------END-----------*/
+
+        /*--------HEADER BRAND-------*/
+        .navbar-brand {
+            font-size: 19px;
+        }
+        
+        .navbar-brand-logo {
+            height: 45px;
+            width: 40px;    
+        }
+        /*----------END-----------*/
+
+}
+
+@media only screen and (max-width: 440px)  {    
+    .header-contact--list {
+        top: 76%;
+        left: 85%;
+    }
+    /*------BUTTON*/
+    .btn {
+        font-size: .9rem !important; 
+    }
+    /*----END---*/
+}
+
+@media only screen and (max-width: 400px) {
+    .header {
+        height: 92% !important;
+    }
+}
